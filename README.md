@@ -47,7 +47,7 @@ Hz, ohm, ohm
 ---
 
 ## ⚙️ Requirements
-Place the input CSV data file in the root directory alongside the Python script(s).
+Place the input CSV data file named "EIS_data.csv" in the "data" directory alongside the Python script(s).
 
 Install required libraries using:
 
