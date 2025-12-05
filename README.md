@@ -22,9 +22,9 @@ Each script:
 
 | File Name                       | Description                                                       |
 | ------------------------------- | ----------------------------------------------------------------- |
-| `fit_randles.py`                | Fits EIS data using the classical Randles circuit                 |
-| `fit_modified_randles_liion.py` | Fits EIS data using a Modified Randles model for Li-ion batteries |
-| `fit_thevenin_multi_rc.py`      | Fits EIS data using a Multi-RC Thevenin ECM                       |
+| `fit_Randles.py`                | Fits EIS data using the classical Randles circuit                 |
+| `fit_modified_Randles` | Fits EIS data using a Modified Randles model for Li-ion batteries |
+| `fit_Thevenin_Tulti_RC.py`      | Fits EIS data using a Multi-RC Thevenin ECM                       |
 
 ---
 
