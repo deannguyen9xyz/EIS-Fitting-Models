@@ -121,7 +121,8 @@ This project is designed for:
 
 ## 🧑‍💻 Author
 
-Developed by: Vu Bao Chau Nguyen
-Field: Electrochemical Impedance Spectroscopy (EIS), Battery Modeling, Sensors
+Developed by: Vu Bao Chau Nguyen, Ph.D.
+
+Keywords: Electrochemical Impedance Spectroscopy (EIS), Battery Modeling, Sensors
 
 ---
