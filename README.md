@@ -47,13 +47,13 @@ Hz, ohm, ohm
 ---
 
 ## ⚙️ Requirements
+Place the input CSV data file in the root directory alongside the Python script(s).
 
 Install required libraries using:
 
 ```
 pip install numpy scipy pandas matplotlib
 ```
-
 ---
 
 ## ▶️ How to Run
