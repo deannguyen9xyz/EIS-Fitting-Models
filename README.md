@@ -5,15 +5,21 @@ Different model for fitting Electrochemical Impedance Spectroscopy (EIS) data
 
 This repository contains three standalone Python scripts for fitting **Electrochemical Impedance Spectroscopy (EIS)** data using:
 
-* ✅ Randles Equivalent Circuit (for sensors)
-* ✅ Modified Randles Model (for Li-ion batteries)
-* ✅ Thevenin Multi-RC Equivalent Circuit Model (for battery ECM modeling)
+* ✅ Randles Equivalent Circuit (can be used for sensors)
+
+      Rs + ( Cdl || (Rct + Zw) )
+* ✅ Modified Randles Model (can be used for Li-ion batteries)
+
+      Rs – (Rsei||CPEsei) – (Rct||CPEdl) – W
+* ✅ Thevenin Multi-RC Equivalent Circuit Model (2 RC Thevenin battery model)
+
+      Rs – (R1||C1) – (R2||C2)
 
 Each script:
 
 * Loads EIS data from a CSV file
 * Defines the impedance model
-* Fits the model to experimental data
+* Fits the model using least_square
 * Plots the Nyquist diagram
 
 ---
