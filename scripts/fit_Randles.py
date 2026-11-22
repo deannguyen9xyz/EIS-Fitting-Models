@@ -7,7 +7,8 @@ from scipy.optimize import least_squares
 #======================
 # 1. LOAD YOUR EIS DATA
 #======================
-base_dir = os.path.dirname((os.path.abspath(__file__)))
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+base_dir = os.path.dirname(scripts_dir)  # repo root, where data/ lives
 data_path = os.path.join(base_dir, "data", "EIS_data.csv")
 df = pd.read_csv(data_path, header=0, skiprows=[1])
 df_selected = df[["Freq", "Zreal", "Zimag"]]
