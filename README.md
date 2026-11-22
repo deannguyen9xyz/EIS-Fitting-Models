@@ -52,13 +52,19 @@ Hz, ohm, ohm
 
 ---
 
+### Sample data
+
+`data/EIS_data.csv` is an impedance spectrum from an electrochemical sensor, so it suits `fit_Randles.py`. The modified Randles and Thevenin scripts are battery models: they run on this file, but the fitted values have no physical meaning there (for example, Rs ≈ 465 Ω from the Randles fit vs. 0.12 Ω from the modified Randles fit). Use battery EIS data for those two scripts.
+
+---
+
 ## ⚙️ Requirements
-Place the input CSV data file named "EIS_data.csv" in the "data" directory alongside the Python script(s).
+Place the input CSV data file named "EIS_data.csv" in the `data/` folder at the top of the repository (next to `scripts/`).
 
 Install required libraries using:
 
 ```
-pip install numpy scipy pandas matplotlib
+pip install -r requirements.txt
 ```
 ---
 
